@@ -1,0 +1,157 @@
+/*  Tag Selectors */
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+h1 {
+  font-size: 5rem; /* 16px= 100%/ 1em .... rem means root em- it won't be affected by other style changes from other tags*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+      color: #11999E;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  color: #EAF6F6;
+  width: 4%;
+  border-width: 5px;
+  margin: 100px auto;
+}
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+.thetopcontainer {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+.middle-container {
+  padding-top: 50px;
+}
+.bottom-container {
+  margin: 80px 0 0;
+  background-color: #66BFBF;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottomcloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2; /* line-height noraml is 1.2 */
+}
+.pro {
+  text-decoration: underline;
+}
+.intro {
+  color: #40514E;
+  width: 30%;
+  margin: auto;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+  color: #40514E;
+}
+.profileimage {
+  border-radius: 100%;
+  height: 150px;
+}
+.burmeseteacher {
+  width: 30%; /* 25% of the parent (Angela wants us to change.) the parent here is skill-row.*/
+  float: right;
+  margin-left: 30px; /* use "float" property only for this wrapping text kinda Example. Avoid to use just float.*/
+}
+.codingimg {
+  width: 30%; /* I did height: 100px for both teacher and coding images which works fine too but Angela did it with the changes of the width to 25%*/
+  float: left;
+  margin-right: 30px;
+}
+/* this is also how you can do it. .code-skill-description {
+  clear: left;
+}
+.teacher-skill-description {
+  clear: right;
+}    */
+.normalparagraph {
+  color: #40514E;
+}
+.code-skill-description {
+  color: #40514E;
+}
+.teacher-skill-description {
+  color: #40514E;
+}
+.footer-link {
+  color: #11999E;
+
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.butn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
